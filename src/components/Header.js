@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavHashLink } from 'react-router-hash-link'
+
 
 const Header = () => (
     <div>
@@ -14,27 +15,30 @@ const Header = () => (
                 <img src='\images\logo.jpg' alt='logo' className='header__logo'></img>
             </div>
             <div>
-                <NavLink
+                <NavHashLink
                     to="/"
                     exact
                     className="header__link"
                     activeClassName="header__link--active"
-                >Home</NavLink>
-                <NavLink
+                >Home</NavHashLink>
+                <NavHashLink
+                    smooth 
                     to="/#about"                
                     className="header__link"
                     activeClassName="header__link--active"
-                >About</NavLink>
-                <NavLink
+                >About</NavHashLink>
+                <NavHashLink
+                    smooth 
                     to="/#portfolio"
                     className="header__link"
                     activeClassName="header__link--active"
-                >Portfolio</NavLink>                
-                <NavLink
+                >Portfolio</NavHashLink>                
+                <NavHashLink
+                    smooth
                     to="/#contact"
                     className="header__link"
                     activeClassName="header__link--active"
-                >Contact</NavLink>
+                >Contact</NavHashLink>
             </div>
         </div>
     </div>
