@@ -7,6 +7,7 @@ const Header = () => (
         <div className='header'>
             <NavHashLink
                 to="/#home"
+                smooth
             >
                 <div>
                     <img src='\images\logo.jpg' alt='logo' className='header__logo'></img>
@@ -15,6 +16,7 @@ const Header = () => (
             <div>
                 <NavHashLink
                     to="/#home"
+                    smooth
                     className="header__link"
                     activeClassName="header__link--active"
                 >Home</NavHashLink>
