@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Portfolio = () => (
-    <div className='container' id="portfolio">
+    <div className='content anchor' id="portfolio">
         Project listings
     </div>
 )

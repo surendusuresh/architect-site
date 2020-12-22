@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Contact = () => (
-    <div className='container' id="contact">
+    <div id="contact">
         Contact us placeholder
     </div>
 )
