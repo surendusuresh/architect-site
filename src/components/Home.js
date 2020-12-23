@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Header from './Header'
 import Carousel from './Carousel'
 import About from './About'
@@ -15,7 +15,7 @@ const Home = (props) => {
         <div id="home">
             <Header />
             <Carousel />
-            <div className='container'>
+            <div id='container' className='container'>
                 <About />
                 <Services />
                 <Portfolio />
