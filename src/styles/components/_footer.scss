@@ -7,6 +7,9 @@
     @media(min-width: $ipad-breakpoint){
       
     }
+    @media(min-width: $desktop-breakpoint){
+
+    }
 }
 
 .footer__box {
@@ -28,17 +31,19 @@
   }
 
   .footer__content {
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 10rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    p {
-      color: darken(white,5%);
-    }
-    span {
-      color: lighten(black,30%);
+    @media(min-width: $desktop-breakpoint){
+      width: 50%;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      margin-top: 10rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      p {
+        color: darken(white,5%);
+      }
+      span {
+        color: lighten(black,30%);
+      }
     }
   }
