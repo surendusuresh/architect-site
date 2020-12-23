@@ -1,11 +1,13 @@
 .container {
     position: relative;    
-    min-height: 90vh;
+    min-height: 120vh;
+    margin-bottom: 1rem;
 }
 
 .content {
-    min-height: 90vh;
-    padding-top: 1.5rem; 
+    height: auto;
+    overflow: hidden;    
+    padding-bottom: 4rem; 
 }
 
 .content__parallax {
@@ -20,13 +22,15 @@
 }
 
 .content__header {
-    text-align: center;
+    text-align: center;    
     margin-top: 10rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
     color: $green;
     text-decoration: underline;
 }
 
-.content__about {
+.content__content {
     width: 50%;
     justify-content: center;
     text-align: center;
@@ -35,4 +39,32 @@
     font-size: 1.5rem;
     font-weight: 100;
     color: grey;
+    dt {
+        color:$green;
+        padding-top: 3.5rem;
+        text-align: center;
+    }
+    dd {
+        color: silver;
+    }
+}
+
+.content__box {    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 40rem;
+    background: #000000b8;
+    box-sizing: border-box;
+}
+
+.content_gallery {
+    img {
+    margin-top: 2rem;
+    width: 70rem;
+    height: 40rem;
+    object-fit: contain;
+    }
 }
