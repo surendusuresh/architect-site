@@ -32,7 +32,7 @@
     margin-bottom: 2rem;
     position: relative;
     display: flex;
-    
+            
     &:focus, &:visited, &:link, &:active, &:hover {
         text-decoration: none;
         color: $green;

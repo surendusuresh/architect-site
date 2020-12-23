@@ -51,12 +51,13 @@
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
-    padding: 0.8em;
+    padding: 0.8em;    
   }
   
   /* Individual item */
   .bm-item {
-    display: inline-block;
+    display: inline-block;  
+    padding: 1rem;      
   }
   
   /* Styling of overlay */
