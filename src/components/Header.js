@@ -78,7 +78,7 @@ const Header = () => {
                 smooth
             >
                 <div>
-                    <img src='\images\logo.jpg' alt='logo' className='header__logo'></img>
+                    <img src='https://firebasestorage.googleapis.com/v0/b/architect-site.appspot.com/o/images%2Flogo.jpg?alt=media&token=0222c649-42a6-42c5-8a42-9f3937e8a37e' alt='logo' className='header__logo'></img>
                 </div>
             </NavHashLink>
             <div>
