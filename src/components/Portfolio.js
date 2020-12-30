@@ -32,7 +32,7 @@ const Portfolio = () => {
     },[storage])
 
     return (
-        <div className='content anchor' id="portfolio">
+        <div className='content anchor content__portfolio' id="portfolio">
             <h2 className='content__header'>Portfolio</h2>
             {loading ? <Loader /> : <Gallery images={images} />}
         </div>
